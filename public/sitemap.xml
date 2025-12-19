@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- English Pages --> <url>
+   <loc>https://www.mohammad-saber.site/en/</loc> 
+   <priority>1.0</priority> 
+   </url> <!-- English Blog Articles --> <url> 
+   <loc>https://www.mohammad-saber.site/en/blog/1</loc>
+    <priority>0.8</priority> </url> <url> 
+    <loc>https://www.mohammad-saber.site/en/blog/2</loc> 
+    <priority>0.8</priority> </url> <!-- Arabic Pages --> <url>
+    <loc>https://www.mohammad-saber.site/ar/</loc> 
+    <priority>1.0</priority> </url> <!-- Arabic Blog Articles -->
+    <url> <loc>https://www.mohammad-saber.site/ar/blog/1</loc>
+    <priority>0.8</priority> </url> <url> 
+    <loc>https://www.mohammad-saber.site/ar/blog/2</loc> 
+    <priority>0.8</priority> </url>
+</urlset>
