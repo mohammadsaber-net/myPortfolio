@@ -19,8 +19,8 @@ const bodies: any = {
   MERNstack: MERNstack,
   WebsiteImportance: WebsiteImportance
 };
-export default function Page(props: { params: Promise<{ OneBlog: string }> }) {
-  const { OneBlog } = use(props.params);
+export default function Page(props: any) {
+  const OneBlog=props.params.OneBlog
   const id = Number(OneBlog)
   const app = useApp() as { dict:any;lang: string; Blogs?: BlogsItem; [key: string]: any } | null;
   const blog = app?.Blogs?.blogs ?? [];
