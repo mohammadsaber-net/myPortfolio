@@ -24,7 +24,7 @@ export default function Projects() {
           return (
             <div
               key={data.id}
-              className="p-5 rounded-lg bg-indigo-200 shadow-md dark:bg-[#0f142ed9] text-white group max-w-[550px]"
+              className="p-5 dark:text-white rounded-lg bg-indigo-200 shadow-md dark:bg-[#0f142ed9] text-gray-900 group max-w-[550px]"
               
             >
               <div className="relative overflow-hidden">
@@ -62,7 +62,7 @@ export default function Projects() {
                   const key = String(tool);
                   const Icon = iconMap[key];
                   return(
-                  <span key={key} className="flex p-1 rounded-sm dark:bg-[#0d0d1f] items-center bg-indigo-400 gap-1">
+                  <span key={key} className="flex p-1 text-white rounded-sm dark:bg-[#0d0d1f] items-center bg-indigo-400 gap-1">
                     <Icon />
                   </span>
                 )})}
