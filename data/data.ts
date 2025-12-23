@@ -166,7 +166,7 @@ export const myProjects=(dict:any)=>{
         title:project["title8"],
         demo:"https://smart-watch-bice.vercel.app/",
         code:"https://github.com/mohammadsaber-net/smartWatch",
-        image:"/images/X9 Ultra Watch.png",
+        image:"/images/X9UltraWatch.png",
         tools:["SiJavascript","FaHtml5","SiTailwindcss","FaCss3Alt","FaReact","FaGithub"]
     }
 
