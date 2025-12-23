@@ -160,6 +160,14 @@ export const myProjects=(dict:any)=>{
         code:"https://github.com/mohammadsaber-net/landing-courses",
         image:"/images/programming.png",
         tools:["SiJavascript","FaHtml5","SiTailwindcss","FaCss3Alt","FaGithub"]
+    },
+    {
+        id:7,
+        title:project["title8"],
+        demo:"https://smart-watch-bice.vercel.app/",
+        code:"https://github.com/mohammadsaber-net/smartWatch",
+        image:"/images/X9 Ultra Watch.png",
+        tools:["SiJavascript","FaHtml5","SiTailwindcss","FaCss3Alt","FaReact","FaGithub"]
     }
 
 ]}}}
