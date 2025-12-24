@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio – Mohammad Saber
 
-## Getting Started
+This is my personal portfolio website built with **Next.js**.
+It showcases my projects, skills, and experience as a web developer.
 
-First, run the development server:
+🔗 Live Website:  
+https://mohammad-saber.site
+
+---
+
+## 🚀 Features
+- Modern and responsive UI
+- Dark / Light mode support
+- Multi-language support using **next-intl**
+- Contact form powered by **EmailJS**
+- Smooth animations with **AOS**
+- Particle background effects using **tsParticles**
+- Interactive UI elements and transitions
+
+---
+
+## 🛠 Tech Stack
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **EmailJS**
+- **next-intl**
+
+---
+
+## 📦 Installation
+
+Clone the repository:
 
 ```bash
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+Install dependencies:
+
+bash
+npm install
+Run the development server:
+
+bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The project will run on:
+http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔑 Environment Variables
+Create a .env.local file in the root directory and add:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+env
+NEXT_PUBLIC_SERVICE_ID=
+NEXT_PUBLIC_TEMPLATE_ID=
+NEXT_PUBLIC_PUBLIC_KEY=
+These variables are required for the contact form to work correctly.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📁 Scripts
+npm run dev – Run development server
 
-## Learn More
+npm run build – Build for production
 
-To learn more about Next.js, take a look at the following resources:
+npm run start – Start production server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm run lint – Run ESLint
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📌 Notes
+This portfolio is used to present real projects and skills.
 
-## Deploy on Vercel
+Built with performance and accessibility in mind.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Fully responsive across all devices.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👨‍💻 Author
+Mohammad Saber
+
+Portfolio: https://mohammad-saber.site
