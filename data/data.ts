@@ -10,6 +10,7 @@ import {
   SiVercel,
   SiRender,
   SiMongodb,
+  SiFramer,
   SiNodedotjs 
 } from "react-icons/si";
 
@@ -168,6 +169,14 @@ export const myProjects=(dict:any)=>{
         code:"https://github.com/mohammadsaber-net/smartWatch",
         image:"/images/xultraWatch.png",
         tools:["SiJavascript","FaHtml5","SiTailwindcss","FaCss3Alt","FaReact","FaGithub"]
+    },
+    {
+        id:8,
+        title:project["title9"],
+        demo:"https://headphone-smoky.vercel.app/",
+        code:"https://github.com/mohammadsaber-net/headphone",
+        image:"/images/headphone.png",
+        tools:["SiFramer","SiVercel","SiTailwindcss","FaReact","FaGithub"]
     }
 
 ]}}}

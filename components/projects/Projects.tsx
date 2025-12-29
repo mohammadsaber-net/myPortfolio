@@ -4,11 +4,11 @@ import { Link2 } from "lucide-react";
 import Link from 'next/link'
 import { useApp } from "../context/AppContext";
 import { FaReact,FaBootstrap,FaHtml5,FaGithub,FaCss3Alt } from "react-icons/fa";
-import {SiJavascript,SiTypescript,SiTailwindcss,SiRedux,SiNextdotjs,SiVercel,SiRender,SiMongodb} from "react-icons/si";
+import {SiJavascript,SiFramer,SiTypescript,SiTailwindcss,SiRedux,SiNextdotjs,SiVercel,SiRender,SiMongodb} from "react-icons/si";
 export default function Projects() {
  const iconMap: Record<string, React.ComponentType<any>> = {
   "FaHtml5":FaHtml5,"FaCss3Alt":FaCss3Alt,"FaGithub":FaGithub, "FaBootstrap":FaBootstrap, "FaReact":FaReact,"SiTailwindcss":SiTailwindcss,"SiJavascript":SiJavascript,
-  "SiMongodb":SiMongodb,"SiTypescript":SiTypescript, "SiRedux":SiRedux, "SiRender":SiRender,"SiNextdotjs":SiNextdotjs,"SiVercel":SiVercel
+  "SiMongodb":SiMongodb,"SiFramer":SiFramer,"SiTypescript":SiTypescript, "SiRedux":SiRedux, "SiRender":SiRender,"SiNextdotjs":SiNextdotjs,"SiVercel":SiVercel
 };
       const app = useApp() as { Projects?: ProjectItem } | null;
         const projects = app?.Projects?.projects ?? [];
