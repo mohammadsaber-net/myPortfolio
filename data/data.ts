@@ -11,7 +11,8 @@ import {
   SiRender,
   SiMongodb,
   SiFramer,
-  SiNodedotjs 
+  SiNodedotjs,
+  SiPostgresql
 } from "react-icons/si";
 
 export const myNavbar=(dict: any)=>{
@@ -104,6 +105,8 @@ export const usedTools=[
     {id:13,icon:SiRedux,title:"Redux"},
     {id:14,icon:SiVercel,title:"Vercel"},
     {id:15,icon:SiRender,title:"Render"},
+    {id:16,icon:SiPostgresql,title:"PostgreSQL"},
+    {id:17,icon:SiNodedotjs,title:"Node.js"},
 ]
 export const myProjects=(dict:any)=>{
   const project=dict.project
@@ -114,6 +117,14 @@ export const myProjects=(dict:any)=>{
     demo:project["demo"],
   },
     projects:[
+      {
+        id:9,
+        title:project["title10"],
+        demo:"https://financial-amxa.vercel.app/",
+        code:"https://github.com/mohammadsaber-net/Financial",
+        image:"/images/financial.png",
+        tools:["SiPostgresql","SiVercel","SiTailwindcss","SiNodedotjs","SiNextdotjs","FaGithub"]
+    },
       {
         id:5,
         title:project["title6"],
