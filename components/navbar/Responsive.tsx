@@ -30,7 +30,7 @@ export default function Responsive({dict,lang}:{lang:string;dict:any}) {
         </span>
       </div>
       <MainNav />
-      <a download={"/Mohammad_FullStack_CV.pdf"} href='/images/Mohammad_FullStack_CV.pdf' className='flex space-x-4 items-center'>
+      <a download={"/Muhammad_FullStack_CV.pdf"} href='/images/Muhammad_FullStack_CV.pdf' className='flex space-x-4 items-center'>
         <button className='cursor-pointer transition text-sm sm:text-xl text-white bg-blue-600 hover:bg-blue-700 
         flex items-center gap-2 rounded-lg p-2
         '>

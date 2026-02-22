@@ -42,27 +42,4 @@ export default function Mobile({setOpenMobile,openMobile}:Props) {
   )
 }
 
-// "use client"
-// import { Nav } from '@/data/data'
-// import { Link, X } from 'lucide-react'
-// type Props = {
-//   setOpenMobile: React.Dispatch<React.SetStateAction<boolean>>
-//   openMobile:boolean
-// }
-// export default function Mobile({setOpenMobile,openMobile}:Props) {
-//   return (
-//     <div className={`fixed md:hidden ${!openMobile?"translate-x-0":"translate-x-full"} inset-0 transform transition-all
-//     duration-300 w-full h-screen right-0 z-50 bg-black opacity-70`}>
-//         <div className={`fixed ${!openMobile?"translate-x-0":"translate-x-full"} transform flex items-center flex-col justify-center gap-6 transition-all duration-500 
-//         delay-200 bg-cyan-800 text-white h-screen right-0 inset-0 w-[80%]`}>
-//             {Nav.map(navLink=>(
-//                 <Link key={navLink.id} href={navLink.url} 
-//                 className='text-2xl sm:text-4xl cursor-pointer pb-2 border-b border-white'>
-//                     {navLink.label}
-//                 </Link>
-//             ))}
-//         </div>
-//         <X onClick={()=>setOpenMobile(false)} className='fixed cursor-pointer top-2 left-2 text-white z-10'/>
-//     </div>
-//   )
-// }
+
