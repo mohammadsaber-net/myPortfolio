@@ -144,10 +144,10 @@ export const myProjects=(dict:any)=>{
     {
         id:1,
         title:project["title2"],
-        demo:"https://react-ecommerce-mocha-mu.vercel.app/",
-        code:"https://github.com/mohammadsaber-net/react-ecommerce",
-        image:"/images/store.png",
-        tools:["FaHtml5","FaBootstrap","FaReact","SiMongodb","SiRedux","SiRender"]
+        demo:"https://athar-123.vercel.app",
+        code:"https://github.com/mohammadsaber-net/athar",
+        image:"/images/athar.png",
+        tools:["SiPostgresql","SiTailwindcss","SiFramer","FaReact","SiNextdotjs","SiRedux","SiVercel"]
     },
     {
         id:2,
